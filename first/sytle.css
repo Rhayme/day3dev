@@ -1,0 +1,84 @@
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 1000px;
+    }
+.rowOne{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.child{
+    width: 30%;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+
+}
+.red{
+
+    background-color: red;
+}
+.grey{
+
+    background-color: grey;
+
+}
+.blue{
+
+    background-color: cornflowerblue;
+}
+.font{
+
+    font-family: Arial;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.rowTwo{
+    display: flex;
+    width: 98.5%;
+    height: 300px;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.bigRed{
+    flex: 1;
+    background:red;
+}
+.bigBlue{
+    flex: 2;
+    background-color: cadetblue;
+
+}
+.rowThree{
+    display: flex;
+    width: 98.5%;
+    height: 150px;
+    margin: 25px 10px 25px 10px;
+
+}
+.longBlue{
+    background-color: cornflowerblue;
+    width: 75%;
+
+}
+.shortRed{
+    display: flex;
+    background-color: red;
+    width: 25%;
+
+
+}
+.smallGrey{
+    width: 75%;
+    background-color: grey;
+    align-items: stretch;
+    margin-left: 13%;
+
+
+}
